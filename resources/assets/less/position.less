@@ -1,0 +1,22 @@
+.generate-position(@m, @gap, @i:0px, @k:0) when (@i =< @m) {
+  .t@{k} {
+    top: @i;
+  }
+  .b@{k}{
+  	bottom: @i;
+  }
+  .r@{k}{
+	 right: @i;
+  }
+  .l@{k}{
+  	left:@i;
+  }
+  .generate-position(@m, @gap, @i + @gap, @k + @gap);
+}
+
+.generate-position(10,1);
+.generate-position(100,5);
+
+.absolute{
+position:absolute;
+}

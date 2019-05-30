@@ -1,0 +1,567 @@
+
+#footer-con [class|="col"] , #footer-con[class|="col"]{ float:none !important;}
+
+.sortReports.search select{ width:auto !important;}
+
+.mce-container, .mce-container *, .mce-widget, .mce-widget *, .mce-reset{ max-width:100% !important;}
+#readers .col-2-10 {
+    width: auto !important;
+}
+
+.btn-white{ font-size:14px !important;}
+
+
+@media (max-width:1300px) {
+	.col-3-16{
+		 width:24%;	
+	}
+	.col-11-16{
+		 width:60%;	
+	}
+	.user-thumbline img{
+		max-width:100%;	
+	}
+	.col-5-8{
+		width:50%;	
+	}
+	
+	.profile-fproject img{width:100%;}
+	.profile .col-1-4{ width:50%;}
+	#submission .col-5-7{ width:100%;}
+	.script-view .col-3-4{ width:65%;}	
+	.script-view .col-1-4{ width:32%;}
+	.script-view .col-1-4 .fa-user	{ width:100%;}
+}
+
+@media (max-width:1200px) {
+.right_cntnt{
+		width:100% !important;
+		padding:30px 20px !important;	
+	}
+	.col-3-11{
+		width:32%;	
+	}
+.btn-white{ padding:5px 10px;}	
+.preTemplate .btn-white{ padding:4px 26px 4px 50px;}
+.preTemplate .col-5-8{ width:100%;}
+.script-view .col-1-4 .fa-edit{ padding-right:0px; padding-left:30px;}
+	
+}
+
+
+@media (max-width:1000px){
+	.col-6-11{
+		 width:80% !important;	
+	}
+	.col-3-11{
+		 width:100% !important;
+	}
+	.col-3-11 .item-right-item{
+		 width:45% !important;
+		 margin:10px auto;
+	}
+	.col-17-24{
+		width:60%;	
+	}
+	.col-7-24{
+			width:39% !important;
+		}
+		
+	.reports .col-7-24{ width:29.1667% !important;}
+		
+	#dash-content .element.col-ft-6{ width:100% !important; max-width:47.8999% !important;}	
+	#dash-content .element:nth-child(2n+1){margin-right:0px;}
+	#readers .col-1-1 .col-1-1 .col-1-4.pulrt10{ max-width:250px; width:100%;}
+	
+.col-md-7	
+		
+		
+}
+
+@media (min-width:992px) and (max-width: 1300px){
+	#dash-content > .col-md-2{ width:21% !important; }
+	#dash-content > .col-md-10{ width:79% !important; }
+	
+	
+	
+}
+
+@media (min-width:992px) and (max-width: 1070px){
+	
+	#readers .col-11-16{ max-width:430px !important; width:100%;}
+	
+	#readers .col-5-8{ width:60%;}
+	#readers .col-2-8{ max-width:149px; width:100%}
+	
+	#readers .col-1-1 .col-1-1 .col-1-4.pulrt10{ max-width:250px; width:100%;}
+	
+	
+	}
+
+@media screen and (max-width:870px){
+	.col-3-16{
+		 width:30%;	
+	}
+	.col-11-16{
+		 width:55%;	
+	}
+	
+	.sortReports.search.right{ float:left !important; padding-top:15px; }
+	.sortReports.search select{ width:auto !important; margin-left:0px !important;}
+	
+	form .col-2-3{ width:100% !important;}
+	
+	.read  .col-23-24 .col-2-3{ width:100% !important;}
+	.read  .col-1-3{ width:86% !important; float:right !important}
+	#readers .col-5-8{ width:60%;}
+	#readers .col-2-8{ max-width:149px; width:100%}
+	
+	#scriptsindexview .col-5-7 .col-3-4{ width:60%;}
+	#scriptsindexview .col-5-7 .col-1-4{ width:39%;}
+}
+
+@media screen and (max-width:992px){
+	#menu-container{
+		left: -270px;
+		position: fixed;
+		background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+		z-index:1000;
+		width: 270px;
+		overflow:scroll;
+		height:100%;
+	}
+	
+	.dash-profile{
+		width:270px
+	}
+	
+	#readers .col-2-10{ width:auto !important}
+	
+	
+}
+
+@media screen and (max-width:768px){
+	
+	/*[class|="col"] {
+    	width: 100%;
+	}*/
+	
+	#clear-member-filter, #serach-member-filter{
+		margin-bottom:15px;	
+	}
+	
+	#scriptsindex .btn-icon::before{ width:30px;}
+	#scriptsindex .btn-icon{ padding-left:38px;}
+	.scrip-pac-view .pullft15{ padding-left:0px;}
+	
+	.col-17-24 , .col-sm-12 {
+		width:100%;	
+	}
+	.col-7-24{
+			width:50% !important;
+			margin:10px auto !important;
+			float:none ;
+		}
+	.col-5-7{
+		width:100%;	
+	}
+	.col-11-16{
+		width:79%; 	
+	}	
+	.col-1-8{
+		width:20%;	
+	}
+	.col-3-16{
+		clear: both;
+		float: none;
+		padding-top: 20px;
+		width: 30%;
+		margin:0 auto;
+	}
+	
+.col-1-1 .col-1-4 { width:50%;}	
+	
+.hiddenmob{ display:none;}	
+.reports .col-8-24, .reports .col-7-24 , .reports .col-5-24{ float:right !important ; width:65% !important;}
+
+#add-template-form .col-11-20 , #add-template-form .col-1-4.right{ width:100% !important; float:none !important;}
+
+.col-1-6.filebutton-div{ width:35.667%;}	
+.contacts .col-8-24, .contacts .col-4-24, .favorites .col-8-24 ,.favorites .col-4-24 , .col-8-24{ width:80%; float:right !important;}
+
+#logincontainer.col-4-11{ max-width:300px; width:100% !important;}
+
+#readers .col-1-1.relative{ text-align:center;}
+#readers .col-2-10 {
+    float: none;
+    max-width: 209px !important;
+    width: auto !important;
+}
+
+.covrage_stamp{ max-width:135px; width:100%;}
+
+#scriptsindex .col-4-5{ width:70%;}
+#scriptsindex .col-1-5{ width:29%;}
+#scriptsindex .xpul15 .col-1-2{ width:100%} 
+
+#scriptsindexview .col-2-7 { width:100%;}
+
+#template_view .col-3-14.templ-score{ width:100%;}
+
+
+.scrip-pac-view .col-2-7{ width:100% !important;}
+}
+
+
+@media screen and (max-width:650px){
+	
+.mrgtp20 .mrgbt20 .col-23-24 .col-3-6 { float:right !important ; width:65% !important;}	
+
+.mrgtp20 .mrgbt20 .pulbotm2 .col-1-4.pul5{ width:50%;}
+
+.col-1-2.pulrt10 ,.col-1-2.pullft10{ width:100%;  margin: 5px auto; padding: 0;}
+	
+	
+.col-7-24{
+	width:100% !important;
+	
+}
+.pullft40{
+	padding-left:0px !important;	
+}
+.dash-top-right{
+	position:absolute; 
+	right:50px;	
+}
+.top-left ul.left{
+	width:70%;
+	margin-left:20%	
+}
+.top-left{
+	 width:100%;	
+}
+.col-3-16{
+	width: 40%;
+}
+
+.col-11-16{
+		 width:60%;	
+	}
+.col-5-8{
+	width:80%;	
+}
+
+.col-11-12{ width:100%;}
+.col-1-12{ width:auto !important; padding:6px 0px;}
+
+#dash-content .element.col-ft-6{ width:100% !important; max-width:100% !important; margin:25px auto 0px !important;}
+
+
+.top-tabs li.no-icon{ padding:8px 37px}
+.top-tabs li{ width:100% !important; margin:0px !important;}
+
+.profile .col-11-16{ width:80%;}
+.profile .col-11-16 .col-5-8{ width:74%;}
+.contacts .col-8-24, .contacts .col-4-24,.contacts .col-1-24 , .favorites .col-8-24, .favorites .col-4-24,.favorites .col-1-24{ width:100%; float:right !important;}
+
+.pop-up.activate{ width:80% !important; left:auto !important;}
+
+.pop-up .col-1-1 .col-1-5{ float:none !important;} 
+
+.pop-up .textArea{ min-height:inherit !important; height:110px;}
+
+#readers .RadialBoxBottom .col-1-3 , #readers .RadialBoxBottom .col-2-3{ width:100%;}
+
+.covrage_stamp {
+    float: none !important;
+    margin: 0 auto 14px !important;
+ }
+ 
+ #submission .col-7-10{ width:100%;}
+ 
+ .priviewbtn .btn {
+    float: none !important;
+    margin: 5px auto !important;
+    max-width: 280px;
+    text-align: center !important;
+    width: 100%;
+}
+
+.preTemplate a.btn-icon{
+	width:40%;
+	display:block;
+	float:none;
+	margin:10px auto;	
+}
+}
+
+@media screen and (max-width:580px){
+	
+	#msg-notify-popup{ width:400px !important; right:-25px !important;}
+	#dox52 .col-8-24 ,#dox50 .col-8-24 { width:94%; padding:0px 14px;}
+	#dox52 .col-10-24 ,#dox50 .col-10-24{ width:100%; padding:0 34px;}
+	#dox52 .col-2-24 ,#dox50 .col-2-24{ width:auto; float:left; padding:11px 28px 0;}
+	
+	#add-documentform .col-1-5.mrglft20{ width:100%;}
+	
+	#add-documentform .col-1-5.mrglft20.filebutton-div{ width:20% !important;}
+	
+	.read .col-23-24{ width:93%;}
+	.read .col-23-24 .col-2-3{ text-align:center;}
+	
+	.read  .col-2-3, .read  .col-2-14, .read  .col-7-14 , .read  .col-5-14 , .read .col-1-3{ width:100% !important; text-align:center; float:none !important;}
+	
+	.profile .col-1-8.user-thumbline {
+    padding-bottom: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.profile .col-11-16 {
+    width: 100%;
+}
+
+.profile .col-11-16 .col-5-8 , .profile .col-11-16 .col-2-8 , .col-1-1 .col-1-4{ width:100%;}
+
+h1, .h1, h2, .h2, h3, .h3{ font-size:125% !important;}
+
+#readers .col-2-8 {
+    float: none !important;
+    margin: 0 auto;
+    max-width: 149px;
+    width: 100%;
+}
+
+#readers .col-5-8 {
+    text-align: center;
+    width: 100%;
+}
+
+
+#scriptsindex .col-4-5 {
+    float: none !important;
+    margin: 0 auto 11px;
+    text-align: center;
+    width: 100%;
+}
+#scriptsindex .col-1-5 {
+    float: none !important;
+    margin: 0 auto !important;
+    max-width: 204px;
+    width: 100%;
+}
+
+#scriptsindex  .col-1-24 {
+    width: 100%;
+}
+#scriptsindex .xpul15 .col-1-2{ width:100%}
+#scriptsindex .xpul15 .col-1-2 .col-1-3, #scriptsindex .xpul15 .col-1-2 .col-1-4{ width:auto !important;} 
+
+#scriptsindexview .col-5-7 .col-3-4{ width:100%;}
+
+	#scriptsindexview .col-5-7 .col-1-4{ width:100%;}
+	#scriptsindexview .script-info-table .col-1-2{ width:100%;}
+	#scriptsindexview .script-info-table .col-1-2 .col-1-1{ padding:0px !important;}
+	
+	.slideAnimate{ left:auto !important; right:auto !important; width:88% !important;}
+	#contact-info {
+    z-index: 9;
+}
+
+.pre-left{ width:100%;}
+.pre-right{ float:left;}
+
+.bottomNextPre{ display:none !important;}
+.readerinst{ width:100% !important;}
+
+.bar_graphs .left{ width:100%;}
+.bar_graphs .left .main_bar{ width:100%;}
+.bar_graphs .left .slider{ width:95%;}
+.highlight-track{ top:5px;}
+.scriptinfo .delete_btn , .template-div .delete_btn{ margin-right:5px !important;}
+
+.btm_links ul li{ width:100% !important;}
+.btm_links ul li.last {
+    margin-bottom: 12px;
+ }
+
+.script-view .col-3-4{ width:100%;}	
+.script-view .col-1-4{ width:50%; margin:0 auto; float:none; clear:both; padding-top:20px;}
+
+.script-info-table > div { width:100% !important;}	
+.script-info-table > div .col-1-1 { padding-right:15px !important;}	
+.prfile-links a{ font-size:12px !important;}
+.top-profile-popup h4.name{ font-size:14px !important;}
+	}
+
+@media screen and (max-width:480px){
+	
+.col-7-24{
+	width:100% !important;
+	
+}
+.col-3-11 .item-right-item{
+		 width:60% !important;
+		 margin:10px auto;
+	}
+.col-2-11{
+	width:28%;
+}
+.col-6-11{
+	width:70% !important;	
+}	
+.top-left ul.left{
+	width:100%;
+	margin-left:15%	
+}
+.col-3-16{
+	width: 50%;
+}
+
+.reports .col-8-24, .reports .col-7-24 , .reports .col-5-24 , .reports .left.mrgrt20 , .reports .col-1-24 , .reports .xpul15 .col-1-3.text-center{ float:none !important ; width:100% !important; text-align:center;}
+
+
+.mrgtp20 .mrgbt20 .col-23-24 .col-3-6 , .mrgtp20 .mrgbt20 .pulbotm2 .col-1-4.pul5{ float:none !important ; width:100% !important; text-align:center;}	
+
+.xpul50{ padding:25px;}
+
+
+.col-2-3 .col-1-1 .col-3-5, .col-2-3 .col-1-1 .col-3-10 { width:100%; text-align:center;}
+
+.profile-edit-image{ margin:0 auto !important;}
+
+.col-2-3 .col-1-1 .col-3-5 .col-1-5 {
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+
+
+#readers .col-1-1 .col-1-1 .col-1-4.pulrt10 {
+    float: none !important;
+    margin: 0 auto;
+    width: 100%;
+	max-width:inherit !important;
+	padding:10px 0px;
+}
+
+.preTemplate a.btn-icon{
+	width:50%;
+}
+	
+}
+
+
+@media screen and (max-width:420px){
+	
+	#msg-notify-popup{ width:330px !important; right:-30px !important;}
+.col-sm-12{ width:100% !important;}
+	
+.col-3-16{
+	width: 60%;
+}
+.col-5-8{
+	width:100%;	
+}
+.item-box div.left{
+	float:none;
+	margin:0 auto;	
+}
+.item-sub-head{
+	font-size:18px;	
+}
+.item-head {
+	font-size:30px;	
+}
+.thumbnail{
+	float:none !important;
+	margin:0 auto;	
+}
+.user-thumbline{
+	float:none;
+	width:100%;
+	text-align:center;	
+}
+.col-11-16{
+	width:100%;	
+}	
+.col-7-24{
+			width:100% !important;
+			
+		}
+.col-3-11 .item-right-item{
+		 width:60% !important;
+		 margin:10px auto;
+	}
+.col-2-11{
+	width:50%;
+	margin:0 auto;
+	float:none;
+}
+.col-6-11{
+	width:100% !important;
+	text-align:center;
+	padding-top:10px;	
+}
+
+.top-left ul.left{
+	width:100%;
+	margin-left:3%	
+}	
+
+.xmrg40{
+	margin-left:25px;	
+}	
+.sortReports.search select{ margin-bottom:5px;}
+
+#header #nav{ padding:10px 0px !important;}
+
+.highlight-track {
+    height: 9px;
+    top: 10px !important;
+left:-4px;
+}
+
+.dragger{ top:50% !important;}
+.script-view .col-1-4{ width:80%;}
+.preTemplate a.btn-icon{
+	width:60%;
+}
+.itemSearch input[type="text"]{ width:190px !important;}	
+}
+
+
+@media screen and (max-width:360px){
+	
+.col-3-11 .item-right-item{
+		 width:80% !important;
+		 margin:10px auto;
+	}
+	
+	#footer{ height:auto !important;}
+.itemSearch input[type="text"]{ width:175px !important;}	
+}
+
+@media screen and (max-width:340px){
+	
+.top-left ul.left{
+	width:100%;
+	margin-left:0%	
+}	
+.top-left ul li a{
+	padding:0px 6px !important;	
+}
+.xmrg40{
+	
+	margin-left:8px;	
+}
+
+#logincontainer.col-4-11{ max-width:271px;}
+
+#top-con #logo{ max-width:178px; width:100%;}
+
+#msg-notify-popup{ width:320px !important; right:-40px !important;}
+.itemSearch input[type="text"]{ width:160px !important;}	
+}
+
+
+

@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.ttf');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Light.ttf');
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Medium');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-SemiBold.ttf');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Raleway';
+	src: url('fonts/Raleway-Thin.ttf');
+	font-weight: 100;
+	font-style: normal;
+}
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Raleway;
+    font-size: 14px;
+	font-weight: 600;
+}
+td, th {
+    font-family: "Raleway";
+    font-size: 14px;
+}
+.mce-content-body .mce-reset {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    box-sizing: content-box;
+    color: black;
+    cursor: inherit;
+    direction: ltr;
+    float: none;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    max-width: none;
+    outline: 0 none;
+    padding: 0;
+    position: static;
+    text-align: left;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+}
+.mce-object {
+    background: #d5d5d5 url("img/object.gif") no-repeat scroll center center;
+    border: 1px dotted #3a3a3a;
+}
+.mce-preview-object {
+    border: 1px solid gray;
+    display: inline-block;
+    line-height: 0;
+    margin: 0 2px;
+    position: relative;
+}
+.mce-preview-object .mce-shim {
+    background: rgba(0, 0, 0, 0) url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7") repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+figure.align-left {
+    float: left;
+}
+figure.align-right {
+    float: right;
+}
+figure.image.align-center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure.image {
+    background: #f5f2f0 none repeat scroll 0 0;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 0 2px 0 1px;
+}
+figure.image img {
+    margin: 8px 8px 0;
+}
+figure.image figcaption {
+    margin: 6px 8px;
+    text-align: center;
+}
+.mce-preview-object[data-mce-selected="2"] .mce-shim {
+    display: none;
+}
+.mce-pagebreak {
+    border: 1px dashed #666;
+    cursor: default;
+    display: block;
+    height: 5px;
+    margin-top: 15px;
+    page-break-before: always;
+    width: 100%;
+}
+@media print {
+.mce-pagebreak {
+    border: 0 none;
+}
+}
+.mce-item-anchor {
+    -moz-user-modify: read-only;
+    -moz-user-select: all;
+    background: #d5d5d5 url("img/anchor.gif") no-repeat scroll center center;
+    border: 1px dotted #3a3a3a;
+    cursor: default;
+    display: inline-block;
+    height: 9px !important;
+    width: 9px !important;
+}
+.mce-nbsp, .mce-shy {
+    background: #aaa none repeat scroll 0 0;
+}
+.mce-shy::after {
+    content: "-";
+}
+hr {
+    cursor: default;
+}
+.mce-match-marker {
+    background: #aaa none repeat scroll 0 0;
+    color: #fff;
+}
+.mce-match-marker-selected {
+    background: #39f none repeat scroll 0 0;
+    color: #fff;
+}
+.mce-spellchecker-word {
+    border-bottom: 2px solid #f00;
+    cursor: default;
+}
+.mce-spellchecker-grammar {
+    border-bottom: 2px solid #008000;
+    cursor: default;
+}
+.mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption {
+    border: 1px dashed #bbb;
+}
+td[data-mce-selected], th[data-mce-selected] {
+    background-color: #39f !important;
+}
+.mce-edit-focus {
+    outline: 1px dotted #333;
+}
+.mce-content-body [contentEditable="false"] [contentEditable="true"]:focus {
+    outline: 2px solid #2d8ac7;
+}
+.mce-content-body [contentEditable="false"] [contentEditable="true"]:hover {
+    outline: 2px solid #7acaff;
+}
+.mce-content-body [contentEditable="false"][data-mce-selected] {
+    outline: 2px solid #2d8ac7;
+}
+.mce-resize-bar-dragging {
+    background-color: blue;
+    opacity: 0.25;
+}

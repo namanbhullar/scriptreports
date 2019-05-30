@@ -1,0 +1,29 @@
+.generate-padding(@m, @gap, @i:0px, @k:0) when (@i =< @m) {
+  .pul@{k} {
+    padding: @i;
+  }
+  .pultop@{k}{
+  	padding-top: @i;
+  }
+  .pulbotm@{k}{
+	 padding-bottom: @i;
+  }
+  .pullft@{k}{
+  	padding-left:@i;
+  }
+  .pulrt@{k}{
+  	padding-right:@i;
+  }
+  .ypul@{k}{
+  	padding-top:@i;
+	padding-bottom:@i;
+  }
+  .xpul@{k}{
+  	padding-right:@i;
+	padding-left:@i;
+  }
+  .generate-padding(@m, @gap, @i + @gap, @k + @gap);
+}
+
+.generate-padding(10,1);
+.generate-padding(100,5);

@@ -1,0 +1,28 @@
+.generate-margin(@m, @gap, @k:0px, @i:0) when (@k =< @m) {
+  .mrg@{i} {
+    margin:@k;
+  }
+  .mrgtp@{i}{
+  	margin-top:@k;
+  }
+  .mrgbt@{i}{
+	 margin-bottom:@k;
+  }
+  .mrglft@{i}{
+  	margin-left:@k;
+  }
+  .mrgrt@{i}{
+  	margin-right:@k;
+  }
+  .xmrg@{i}{
+  	margin-left:@k;
+	margin-right:@k;
+  }
+  .ymrg@{i}{
+  	margin-bottom:@k;
+	margin-top:@k;
+  }
+  .generate-margin(@m, @gap, @k + @gap, @i + @gap);
+}
+.generate-margin(10,1);
+.generate-margin(100,5);

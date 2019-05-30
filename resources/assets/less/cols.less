@@ -1,0 +1,22 @@
+@dkblue: #233649;
+@mdblue: #2A4764;
+@ltblue: #6DBCDB;
+
+
+
+.generate-grid(@n, @i:1) when (@i =< @n){
+	.generate-columns(@i);
+	.generate-grid(@n,(@i + 1));
+}
+
+.generate-columns(@m, @k: 1) when (@k =< @m) {
+  .col-@{k}-@{m} {
+    width: (@k * 100% / @m);
+  }
+  .generate-columns(@m, (@k + 1));
+}
+
+.generate-grid(24);
+[class|="col"]{
+float:left;
+}
